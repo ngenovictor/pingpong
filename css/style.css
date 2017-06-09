@@ -11,13 +11,14 @@ nav .nav-wrapper{
   width: 100%;
   background-color: DarkTurquoise;
 }
-ul.results{
-  display: none;
-}
 a{
   color: inherit;
-  text-decoration: none; 
+  text-decoration: none;
 }
+.results{
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   /*media queries*/
   nav{
