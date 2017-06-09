@@ -20,7 +20,7 @@ a{
 }
 
 @media only screen and (max-width: 768px) {
-  /*media queries*/
+  /*media queries for mobile screens*/
   nav{
     height:70px;
   }
