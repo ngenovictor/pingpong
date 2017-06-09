@@ -1,0 +1,22 @@
+nav{
+  height:200px;
+  display: table;
+  width: 100%;
+}
+nav .nav-wrapper{
+  display: table-cell;
+  height:100%;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  background-color: DarkTurquoise;
+}
+ul.results{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  /*media queries*/
+  nav{
+    height:70px;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <h2>Ping-Pong</h2>
+      </div>
+    </nav>
+    <div class="row container body-wrapper">
+      <div class="col-md-3 sidebar">
+        <h3>About Ping Pong</h3>
+        <h5><strong>Created By:</strong></h5>
+        <p>Ngeno Victor</p>
+        <h5><strong>Github Username</strong></h5>
+        <p><a href="https://github.com/ngenovictor">ngenovictor</a></p>
+
+      </div>
+      <div class="col-md-9 main-content">
+        <h2>Let's Play</h2>
+        <h3>Rules:</h3>
+        <p>Ping Pong will count your number from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become 'ping'</li>
+          <li>Numbers divisible by 5 become 'pong'</li>
+          <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+        </ol>
+        <form class="form">
+          <label for="numberinput">Enter your number here</label>
+          <input type="text" name="numberinput" value="">
+          <input type="submit" name="submit" value="PingPong">
+        </form>
+        <ul class="results">
+          <li></li>
+        </ul>
+
+      </div>
+    </div>
+
+  <!-- JavaScript files for bootstrap and jquery and custom JS file -->
+  <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
